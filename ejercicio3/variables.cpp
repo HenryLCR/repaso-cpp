@@ -11,4 +11,6 @@ int main()
     numeroEnteros = 18;
 
     cout<<numeroEnteros;
+
+    return 0;
 }
