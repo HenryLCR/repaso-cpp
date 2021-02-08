@@ -6,11 +6,11 @@ int main()
 {
     int numeroEnteros=15;
     
-    cout<<numeroEnteros;
+    cout<<"Entero: "<< numeroEnteros<<endl;
     
     numeroEnteros = 18;
 
-    cout<<numeroEnteros;
+    cout<<"Entero Modificado: "<<numeroEnteros;
 
     return 0;
 }
