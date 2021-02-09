@@ -6,6 +6,7 @@ int main()
 {
     int a=0, b=0, suma=0, resta=0, multipli=0, divi=0;
     
+    cout<<"---Calculadora---" << endl;
     cout<<"Ingrese el valor de a: ";
     cin>>a;
     cout<<"Ingrese el valor de b: ";
@@ -22,6 +23,6 @@ int main()
     cout<<"La resta de a - b es: "<< resta <<endl;
     cout<<"La multiplicacion de a * b es: "<< multipli <<endl;
     cout<<"La division de a / b es: "<< divi <<endl;
-
+    cout<<endl;
     return 0;
 }
