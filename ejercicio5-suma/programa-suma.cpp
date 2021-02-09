@@ -4,10 +4,19 @@ using namespace std;
 
 int main()
 {
-    int a=10, b=12, resultado;
+    int a=0, b=0, resultado=0;
     
-    resultado = a+b;
+    cout<<"Ingrese el valor de a: ";
+    cin>>a;
+    
+    cout<<endl;
 
+    cout<<"Ingrese el valor de b: ";
+    cin>>b;
+
+    resultado = a+b;
+    cout<<endl;
+    
     cout<<"La suma de a + b es: "<< resultado <<endl;
 
     return 0;
