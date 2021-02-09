@@ -4,7 +4,7 @@ using namespace std;
 
 int main()
 {
-    bool valorBoolean = true;
+    bool valorBoolean = false;
     int valorEntero=15;
     double valorDouble=20.95;
     string valorString="Hola como estan";
